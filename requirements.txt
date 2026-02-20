@@ -1,0 +1,7 @@
+# Core dependencies
+aiohttp>=3.9.0
+feedparser>=6.0.10
+
+# Optional: only needed for --webhook mode
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
