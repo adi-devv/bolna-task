@@ -1,7 +1,0 @@
-services:
-  - type: worker
-    name: openai-status-tracker
-    runtime: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python -u tracker.py
-    plan: free
